@@ -8,22 +8,6 @@ A self-directed analytics project simulating inventory management for **Globus M
 
 Globus Mart faces two linked inventory issues: fast-moving daily essentials (like mustard oil and butter) frequently run out of stock — an estimated 14% in lost sales — while slow-moving items (like premium cookware and seasonal decor) sit unsold in the warehouse, driving storage costs up by 22%. This project identifies which SKUs need urgent reordering and which are tying up capital unnecessarily.
 
-## Dashboard Preview
-
-**Executive Dashboard**
-![Executive Dashboard](inventory%20Dashbaord.png)
-
-**Purchase Hub** — filtered view for procurement, showing only critical/out-of-stock items
-![Purchase Hub](Purchase%20Hub.png)
-
-**Inventory Table** — core calculations: demand stats, safety stock, reorder point, stock status
-![Inventory Table](Inventory%20Table.png)
-
-**Sales Log** — raw transaction data
-![Sales Log](Sales%20Log.png)
-
-## What's Inside
-
 - 📊 **Excel Workbook** (`Globus Mart Project.xlsx`) — 4-tab workbook (ReadMe, Inventory_Table, Purchase_Hub, Executive_Cockpit) with demand analysis, ABC/XYZ classification, safety stock & reorder point (ROP) calculations, and an executive KPI dashboard
 - 📈 **Power BI Dashboard** — interactive version of the same analysis: [live link coming soon]
 - 🐍 **Python (pandas)** (`datacleaning.ipynb`) — data validation notebook checking for missing values, duplicate records, and cross-sheet ID consistency, plus currency-format cleanup
